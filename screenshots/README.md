@@ -19,6 +19,5 @@ The script saves the required command transcripts here using the required IDs:
 - `4C-refs.txt`
 - `final-integration.txt`
 
-If your faculty requires image screenshots, open each transcript in the terminal
-and capture the terminal window, or convert the text files to PNG/PDF using your
-preferred reporting tool.
+The GitHub Actions workflow `.github/workflows/generate-screenshots.yml` renders
+PNG screenshots from these transcripts and commits them back into this folder.

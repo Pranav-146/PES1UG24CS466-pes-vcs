@@ -42,6 +42,9 @@ bash scripts/capture_phase_outputs.sh
 ```
 
 The capture script saves the required outputs into the `screenshots/` folder.
+The GitHub Actions workflow `.github/workflows/generate-screenshots.yml`
+generates the same outputs on Ubuntu 22.04 and renders PNG screenshots from
+those terminal transcripts.
 
 ## Phase 1: Object Storage
 
@@ -68,6 +71,8 @@ Required captures:
 
 - `screenshots/1A-test_objects.txt`
 - `screenshots/1B-object-store-find.txt`
+- `screenshots/1A_test_objects.png`
+- `screenshots/1B_objects_find.png`
 
 ## Phase 2: Tree Objects
 
@@ -88,6 +93,8 @@ Required captures:
 
 - `screenshots/2A-test_tree.txt`
 - `screenshots/2B-tree-object-xxd.txt`
+- `screenshots/2A_test_tree.png`
+- `screenshots/2B_tree_xxd.png`
 
 ## Phase 3: Index
 
@@ -111,6 +118,8 @@ Required captures:
 
 - `screenshots/3A-init-add-status.txt`
 - `screenshots/3B-index-cat.txt`
+- `screenshots/3A_init_add_status.png`
+- `screenshots/3B_index_cat.png`
 
 ## Phase 4: Commits And History
 
@@ -134,6 +143,10 @@ Required captures:
 - `screenshots/4B-pes-find.txt`
 - `screenshots/4C-refs.txt`
 - `screenshots/final-integration.txt`
+- `screenshots/4A_pes_log.png`
+- `screenshots/4B_find_pes_files.png`
+- `screenshots/4C_refs_and_head.png`
+- `screenshots/final_integration_test.png`
 
 ## Commit History Requirement
 
