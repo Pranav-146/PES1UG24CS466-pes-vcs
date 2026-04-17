@@ -1,0 +1,9 @@
+.pes/
+pes
+test_objects
+test_tree
+*.o
+screenshots/*.tmp
+screenshots/*.log
+!screenshots/README.md
+!screenshots/.gitkeep
