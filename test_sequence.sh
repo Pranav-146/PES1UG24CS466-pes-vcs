@@ -4,7 +4,7 @@ set -euo pipefail
 make clean
 make pes
 rm -rf .pes hello.txt bye.txt file1.txt file2.txt
-export PES_AUTHOR="XYZ <PES1UG24AMXXX>"
+export PES_AUTHOR="Sri Pranav Gautam Buduguru <PES1UG24CS466>"
 
 ./pes init
 echo "Hello" > hello.txt

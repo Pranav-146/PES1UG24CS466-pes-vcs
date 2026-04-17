@@ -1,7 +1,7 @@
 # PES-VCS Lab Report
 
 Student: Sri Pranav Gautam Buduguru
-SRN: PES1UG2CS466 
+SRN: PES1UG24CS466
 Repository name: `PES1UG24CS466-pes-vcs`
 
 ## Build And Test Commands
@@ -16,10 +16,10 @@ make test-integration
 Author configuration:
 
 ```bash
-export PES_AUTHOR="XYZ <PES1UG24AMXXX>"
+export PES_AUTHOR="Sri Pranav Gautam Buduguru <PES1UG24CS466>"
 ```
 
-The required command captures are saved under `screenshots/` after running:
+The required screenshot images are saved under `screenshots/` after running:
 
 ```bash
 bash scripts/capture_phase_outputs.sh
@@ -47,16 +47,16 @@ update `.pes/refs/heads/main`.
 
 | ID | File |
 | --- | --- |
-| 1A | `screenshots/1A-test_objects.txt` |
-| 1B | `screenshots/1B-object-store-find.txt` |
-| 2A | `screenshots/2A-test_tree.txt` |
-| 2B | `screenshots/2B-tree-object-xxd.txt` |
-| 3A | `screenshots/3A-init-add-status.txt` |
-| 3B | `screenshots/3B-index-cat.txt` |
-| 4A | `screenshots/4A-log.txt` |
-| 4B | `screenshots/4B-pes-find.txt` |
-| 4C | `screenshots/4C-refs.txt` |
-| Final | `screenshots/final-integration.txt` |
+| 1A | `screenshots/1A_test_objects.png` |
+| 1B | `screenshots/1B_objects_find.png` |
+| 2A | `screenshots/2A_test_tree.png` |
+| 2B | `screenshots/2B_tree_xxd.png` |
+| 3A | `screenshots/3A_init_add_status.png` |
+| 3B | `screenshots/3B_index_cat.png` |
+| 4A | `screenshots/4A_pes_log.png` |
+| 4B | `screenshots/4B_find_pes_files.png` |
+| 4C | `screenshots/4C_refs_and_head.png` |
+| Final | `screenshots/final_integration_test.png` |
 
 ## Q5.1 Branching And Checkout
 

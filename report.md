@@ -1,7 +1,7 @@
 # PES-VCS Lab Report
 
-Name: XYZ  
-SRN: PES1UG24AMXXX  
+Name: Sri Pranav Gautam Buduguru
+SRN: PES1UG24CS466  
 GitHub repository: https://github.com/Pranav-146/PES1UG24CS466-pes-vcs  
 Repository name: `PES1UG24CS466-pes-vcs`
 
@@ -25,7 +25,7 @@ Target platform: Ubuntu 22.04
 
 ```bash
 sudo apt update && sudo apt install -y gcc build-essential libssl-dev
-export PES_AUTHOR="XYZ <PES1UG24AMXXX>"
+export PES_AUTHOR="Sri Pranav Gautam Buduguru <PES1UG24CS466>"
 make all
 ```
 
@@ -41,10 +41,10 @@ Run the screenshot/transcript capture workflow:
 bash scripts/capture_phase_outputs.sh
 ```
 
-The capture script saves the required outputs into the `screenshots/` folder.
+The capture script generates terminal outputs for the screenshot workflow.
 The GitHub Actions workflow `.github/workflows/generate-screenshots.yml`
-generates the same outputs on Ubuntu 22.04 and renders PNG screenshots from
-those terminal transcripts.
+generates the outputs on Ubuntu 22.04, renders PNG screenshots, and keeps only
+the PNG files in the `screenshots/` folder.
 
 ## Phase 1: Object Storage
 
@@ -69,8 +69,6 @@ Important behavior:
 
 Required captures:
 
-- `screenshots/1A-test_objects.txt`
-- `screenshots/1B-object-store-find.txt`
 - `screenshots/1A_test_objects.png`
 - `screenshots/1B_objects_find.png`
 
@@ -91,8 +89,6 @@ Important behavior:
 
 Required captures:
 
-- `screenshots/2A-test_tree.txt`
-- `screenshots/2B-tree-object-xxd.txt`
 - `screenshots/2A_test_tree.png`
 - `screenshots/2B_tree_xxd.png`
 
@@ -116,8 +112,6 @@ Important behavior:
 
 Required captures:
 
-- `screenshots/3A-init-add-status.txt`
-- `screenshots/3B-index-cat.txt`
 - `screenshots/3A_init_add_status.png`
 - `screenshots/3B_index_cat.png`
 
@@ -139,10 +133,6 @@ Important behavior:
 
 Required captures:
 
-- `screenshots/4A-log.txt`
-- `screenshots/4B-pes-find.txt`
-- `screenshots/4C-refs.txt`
-- `screenshots/final-integration.txt`
 - `screenshots/4A_pes_log.png`
 - `screenshots/4B_find_pes_files.png`
 - `screenshots/4C_refs_and_head.png`

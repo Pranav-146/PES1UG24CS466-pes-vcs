@@ -25,7 +25,9 @@ jobs:
         run: bash scripts/capture_phase_outputs.sh
 
       - name: Render PNG screenshots
-        run: python3 tools/render_artifacts_to_png.py
+        run: |
+          python3 tools/render_artifacts_to_png.py
+          rm -f screenshots/*.txt
 
       - name: Commit generated screenshots
         run: |

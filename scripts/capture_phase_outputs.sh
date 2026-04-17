@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT"
 
-export PES_AUTHOR="XYZ <PES1UG24AMXXX>"
+export PES_AUTHOR="Sri Pranav Gautam Buduguru <PES1UG24CS466>"
 mkdir -p screenshots
 
 clean_lab_state() {
