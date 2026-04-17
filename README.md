@@ -1,7 +1,7 @@
 # PES-VCS Lab Report
 
-Student: XYZ  
-SRN: PES1UG24AMXXX  
+Student: Sri Pranav Gautam Buduguru
+SRN: PES1UG2CS466 
 Repository name: `PES1UG24CS466-pes-vcs`
 
 ## Build And Test Commands
