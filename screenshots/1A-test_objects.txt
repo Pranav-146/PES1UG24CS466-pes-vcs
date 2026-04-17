@@ -1,7 +1,0 @@
-PASS: write blob
-PASS: read blob type
-PASS: read blob payload
-PASS: rewrite identical blob
-PASS: deduplicate identical content
-PASS: reject missing/corrupt hash
-All object tests passed.

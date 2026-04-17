@@ -1,7 +1,0 @@
-PASS: deterministic tree serialization
-PASS: parse serialized tree
-PASS: roundtrip entry count
-PASS: roundtrip first path
-PASS: write tree object
-Tree object: 5bd36ae4a4a1270a0cb13783e617db5775c48c3cfedce364ebd0106dbc8a383c
-All tree tests passed.
