@@ -1,0 +1,53 @@
+Initialized empty PES repository in .pes
+added file1.txt
+added file2.txt
+Staged changes:
+  staged:     file1.txt
+  staged:     file2.txt
+
+Unstaged changes:
+  (nothing to show)
+
+Untracked files:
+  untracked:  test_tree.c
+  untracked:  .github/workflows/generate-screenshots.yml
+  untracked:  object.o
+  untracked:  commit.o
+  untracked:  test_sequence.sh
+  untracked:  tree.c
+  untracked:  pes.o
+  untracked:  report.md
+  untracked:  object.c
+  untracked:  .gitignore
+  untracked:  test_objects
+  untracked:  tree.o
+  untracked:  test_objects.o
+  untracked:  test_tree
+  untracked:  test_objects.c
+  untracked:  pes.h
+  untracked:  README.md
+  untracked:  pes
+  untracked:  screenshots/.gitkeep
+  untracked:  screenshots/2A-test_tree.txt
+  untracked:  screenshots/3A-init-add-status.txt
+  untracked:  screenshots/1B-object-store-find.txt
+  untracked:  screenshots/1A-test_objects.txt
+  untracked:  screenshots/README.md
+  untracked:  screenshots/2B-tree-object-xxd.txt
+  untracked:  docs/phase-1-object-store.md
+  untracked:  docs/phase-3-index.md
+  untracked:  docs/phase-2-tree-objects.md
+  untracked:  docs/testing-notes.md
+  untracked:  docs/phase-4-commits.md
+  untracked:  test_tree.o
+  untracked:  index.o
+  untracked:  Makefile
+  untracked:  commit.h
+  untracked:  tree.h
+  untracked:  index.c
+  untracked:  tools/render_artifacts_to_png.py
+  untracked:  scripts/publish_to_github.sh
+  untracked:  scripts/capture_phase_outputs.sh
+  untracked:  pes.c
+  untracked:  commit.c
+  untracked:  index.h
